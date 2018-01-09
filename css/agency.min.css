@@ -14,11 +14,11 @@ p {
 }
 
 a {
-    color: #fed136
+    color: white;
 }
 
 a:hover {
-    color: #fec503
+    color: #3578FF !important;
 }
 
 .text-primary {
@@ -47,11 +47,11 @@ section h2.section-heading {
 
 section h3.section-subheading {
     font-size: 16px;
-    font-weight: 400;
-    font-style: italic;
+    font-weight: 200;
+    font-style: none;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 @media (min-width:768px) {
@@ -62,25 +62,29 @@ section h3.section-subheading {
 
 .btn {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .btn-xl {
     font-size: 18px;
-    padding: 20px 40px
+    padding: 20px 40px;
 }
 
 .btn-primary {
-    background-color: #fed136;
-    border-color: #fed136
+    background-color: #256EFF;
+    border-color: #256EFF;
 }
 
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #fec810!important;
-    border-color: #fec810!important;
-    color: #fff
+    background-color: #3578FF !important;
+    border-color: #3578FF !important;
+    color: #fff;
+}
+
+.text-uppercase {
+    text-transform: none !important;
 }
 
 .btn-primary:active,
@@ -94,7 +98,7 @@ section h3.section-subheading {
 }
 
 ::selection {
-    background: #fed136;
+    background: #4482FF;
     text-shadow: none
 }
 
@@ -107,7 +111,7 @@ img::-moz-selection {
 }
 
 body {
-    -webkit-tap-highlight-color: #fed136
+    -webkit-tap-highlight-color: #4986FF;
 }
 
 #mainNav {
@@ -148,7 +152,7 @@ body {
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136
+    color: #4986FF;
 }
 
 @media (min-width:992px) {
@@ -203,7 +207,7 @@ header.masthead .intro-text .intro-lead-in {
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 header.masthead .intro-text .intro-heading {
@@ -224,7 +228,7 @@ header.masthead .intro-text .intro-heading {
         font-size: 30px;
         line-height: 35px;
         margin-bottom: 25px;
-        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+        font-family: 'Monteserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif
     }
     header.masthead .intro-text .intro-heading {
         text-align: left;
@@ -262,7 +266,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background: rgba(254, 209, 54, .9)
+    background: rgba(68, 130, 255, .9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -304,9 +308,9 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     font-size: 16px;
-    font-style: italic;
+    font-style: none;
     margin: 0;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 #portfolio * {
@@ -344,9 +348,10 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .modal-content p.item-intro {
     font-size: 16px;
-    font-style: italic;
+    font-style: none;
     margin: 20px 0 30px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 200;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -607,7 +612,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
     background-color: #212529;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/contact-bg);
     background-repeat: no-repeat;
     background-position: center
 }
