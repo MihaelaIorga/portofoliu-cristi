@@ -35,6 +35,16 @@ h6 {
     font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
+p {
+    font-weight: 200;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
+li {
+    font-weight: 400;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+}
+
 section {
     padding: 100px 0
 }
